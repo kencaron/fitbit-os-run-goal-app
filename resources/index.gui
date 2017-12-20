@@ -1,0 +1,59 @@
+<svg id="root">
+  <defs>
+    <symbol id="component-bar-chart">
+      <rect class="background bar-chart-bg" /> 
+       
+      <text class="label bar-label week-row" id="component-bar-chart-label-0" />
+      <text class="label bar-label week-row" id="component-bar-chart-label-1" />
+      <text class="label bar-label week-row" id="component-bar-chart-label-2" />
+      <text class="label bar-label week-row" id="component-bar-chart-label-3" />
+      <text class="label bar-label week-row" id="component-bar-chart-label-4" />
+      <text class="label bar-label week-row" id="component-bar-chart-label-5" />
+      <text class="label bar-label week-row" id="component-bar-chart-label-6" />
+      
+      <line class="week-row vertical-divider" id="component-bar-chart-divider-0-1" />
+      <line class="week-row vertical-divider" id="component-bar-chart-divider-1-2" />
+      <line class="week-row vertical-divider" id="component-bar-chart-divider-2-3" />
+      <line class="week-row vertical-divider" id="component-bar-chart-divider-3-4" />
+      <line class="week-row vertical-divider" id="component-bar-chart-divider-4-5" />
+      <line class="week-row vertical-divider" id="component-bar-chart-divider-5-6" />
+      
+      <rect id="goal-percent-bar" />
+      <text id="goal-percent-text" />
+
+      <rect class="bar-rect" id="component-bar-chart-bar-0" />
+      <rect class="bar-rect" id="component-bar-chart-bar-1" />
+      <rect class="bar-rect" id="component-bar-chart-bar-2" />
+      <rect class="bar-rect" id="component-bar-chart-bar-3" />
+      <rect class="bar-rect" id="component-bar-chart-bar-4" />
+      <rect class="bar-rect" id="component-bar-chart-bar-5" />
+      <rect class="bar-rect" id="component-bar-chart-bar-6" />
+    </symbol>
+    <symbol id="component-last-run">
+      <rect class="background" />
+      <text class="label top-label" id="last-run-time-text" />
+      <text class="data data-sm data-2x1" id="last-cadence-text" />
+      <text class="data data-sm data-2x1" id="last-hr-text" />
+      <text class="label bottom-label bottom-label-2x1" id="last-cadence-units-text">SPM</text>
+      <text class="label bottom-label bottom-label-2x1" id="last-hr-units-text">BPM</text>
+    </symbol>
+    <symbol id="component-goal">
+      <rect class="background" />
+      <text class="label top-label" id="goal-top-label">GOAL</text>
+      <text class="data data-lg" id="goal-distance-text" />
+      <text class="label bottom-label" id="goal-distance-units-text" />
+    </symbol>
+    <symbol id="component-last-sync">
+      <rect class="background" />
+      <text class="label top-label" id="last-sync-top-label">SYNC</text>
+      <text class="data data-sm" id="last-sync-text" />
+      <text class="label bottom-label" id="last-sync-secondary-text" />
+      <circle id="ws-closed-circle"/>
+      <text id="ws-closed-text">!</text>
+    </symbol>
+  </defs>
+  <use href="#component-bar-chart" class="tile tile-4x1" id="tile-a1"/>
+  <use href="#component-goal" class="tile tile-1x1" id="tile-a2"/>
+  <use href="#component-last-run" class="tile tile-2x1" id="tile-b2"/>
+  <use href="#component-last-sync" class="tile tile-1x1" id="tile-d2"/>
+</svg>

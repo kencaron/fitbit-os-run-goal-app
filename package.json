@@ -1,0 +1,18 @@
+{
+  "fitbit": {
+    "appUUID": "339ef2ad-f4ed-44ea-933d-5cb116de9d6f",
+    "appType": "app",
+    "appDisplayName": "Run Goal",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_internet",
+      "run_background"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Run Goal"
+      }
+    }
+  }
+}
